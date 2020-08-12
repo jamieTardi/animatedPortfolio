@@ -5,6 +5,11 @@
     margin: 0 0 0 auto;
 }
 
+span{
+    -webkit-text-fill-color: #05FE46;
+    color: red($color: #000000);
+}
+
 nav{
     @include flex(space-between, center, row);
     min-height:10vh;

@@ -117,6 +117,11 @@ a {
   margin: 0 0 0 auto;
 }
 
+span {
+  -webkit-text-fill-color: #05FE46;
+  color: 0;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
