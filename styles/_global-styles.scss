@@ -1,0 +1,70 @@
+
+$header1: 2.5rem;
+$header2: 4rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$text: 2.5rem;
+$gradient: linear-gradient(to right, #00FF47, #CCE91C);
+$background-color: #154353;
+$grey-text: #2c2c2c;
+
+
+
+@mixin flex($justify, $align, $direction){
+  display: flex;
+  justify-content: $justify ;
+  align-items: $align;
+  flex-direction: $direction;
+  -webkit-text-fill-color: transparent;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+ -webkit-text-fill-color: black;
+  }
+  
+  h1 {
+   font-size: $header1;
+   -webkit-text-fill-color: black;
+  }
+  li,
+  button,
+  label,
+  input,
+  a,
+  p {
+    font-size: $text;
+    -webkit-text-fill-color: $grey-text;
+  }
+  h2 {
+    font-size: $header2;
+    -webkit-text-fill-color: black;
+    
+  }
+  h3 {
+    font-size: $header3;
+    -webkit-text-fill-color: black;
+  }
+  h4,
+  h5 {
+    font-size: $header4;
+    -webkit-text-fill-color: black;
+  }
+  
+  ul {
+    list-style: none;
+    
+  }
+  a {
+    text-decoration: none;
+    color: $grey-text;
+    -webkit-text-fill-color: black;
+  }
