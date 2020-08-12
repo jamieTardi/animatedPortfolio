@@ -11,6 +11,7 @@
     <script defer src="../app.js"></script>
 </head>
 <body>
+    <div class="container">
     <header class="main-head">
 <nav>
     <div class="logo">
@@ -25,14 +26,14 @@
 </nav>
     </header>
     <section class="form-section">
-        <form action="">
+        <form  action="https://formspree.io/xaypkbrz" method="POST">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" required>
+            <input type="text" name="name" id="name" placeholder="John Doe" required>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="_replyto" id="email" placeholder="j.doe@email.com" required>
             <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            <button type="submit">Submit</button>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Please enter a message here"></textarea>
+            <button type="submit" value="Send">Submit</button>
         </form>
     </section>
  
@@ -46,6 +47,6 @@
         </ul>
     </footer>
 
-    
+</div>
 </body>
 </html>

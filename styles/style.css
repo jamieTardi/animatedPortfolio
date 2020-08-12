@@ -393,6 +393,13 @@ nav ul {
   -webkit-text-fill-color: transparent;
 }
 
+.container {
+  background: url(../images/contact.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .form-section {
   min-height: 80vh;
   display: -webkit-box;
@@ -431,15 +438,18 @@ nav ul {
           flex-direction: column;
   -webkit-text-fill-color: transparent;
   border-radius: 2rem;
+  background: rgba(173, 181, 189, 0.5);
 }
 
 .form-section form input, .form-section form textarea {
   margin: 2rem;
   -webkit-text-fill-color: black;
+  border-radius: 5px;
+  opacity: 0.8;
 }
 
 .form-section form input:focus, .form-section form textarea:focus {
-  outline: 2px solid black;
+  opacity: 1;
 }
 
 .form-section form textarea {

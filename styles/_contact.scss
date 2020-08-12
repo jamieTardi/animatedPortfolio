@@ -1,3 +1,11 @@
+.container{
+    background: url(../images/contact.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .form-section {
     min-height: 80vh;
     @include flex (center, center, row);
@@ -8,12 +16,16 @@
         0px 20px 40px rgba($color: #000000, $alpha: 0.2);
         @include flex(center, center, column);
         border-radius: 2rem;
+        background: rgba(173, 181, 189, 0.5);
+        
 
         input, textarea{
             margin: 2rem;
             -webkit-text-fill-color: black;
+            border-radius: 5px;
+            opacity: 0.8;
             &:focus{
-                outline: 2px solid black;
+                opacity: 1;
             }
         }
         textarea{
