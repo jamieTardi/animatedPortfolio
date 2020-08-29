@@ -28,7 +28,7 @@ $grey-text: #2c2c2c;
   
   html {
     font-size: 62.5%;
- -webkit-text-fill-color: black;
+ 
   }
   
   h1 {
@@ -39,7 +39,7 @@ $grey-text: #2c2c2c;
   button,
   label,
   input,
-  a,
+
   p {
     font-size: $text;
     -webkit-text-fill-color: $grey-text;
@@ -63,9 +63,12 @@ $grey-text: #2c2c2c;
     list-style: none;
     
   }
-  a {
+  .navbar {
     text-decoration: none;
     color: $grey-text;
-    -webkit-text-fill-color: black;
   }
-  
+
+  a{
+    text-decoration: none;
+    
+  }

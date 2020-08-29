@@ -11,7 +11,6 @@ body {
 
 html {
   font-size: 62.5%;
-  -webkit-text-fill-color: black;
 }
 
 h1 {
@@ -23,7 +22,6 @@ li,
 button,
 label,
 input,
-a,
 p {
   font-size: 2.5rem;
   -webkit-text-fill-color: #2c2c2c;
@@ -49,67 +47,13 @@ ul {
   list-style: none;
 }
 
-a {
+.navbar {
   text-decoration: none;
   color: #2c2c2c;
-  -webkit-text-fill-color: black;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-html {
-  font-size: 62.5%;
-  -webkit-text-fill-color: black;
-}
-
-h1 {
-  font-size: 2.5rem;
-  -webkit-text-fill-color: black;
-}
-
-li,
-button,
-label,
-input,
-a,
-p {
-  font-size: 2.5rem;
-  -webkit-text-fill-color: #2c2c2c;
-}
-
-h2 {
-  font-size: 4rem;
-  -webkit-text-fill-color: black;
-}
-
-h3 {
-  font-size: 2.5rem;
-  -webkit-text-fill-color: black;
-}
-
-h4,
-h5 {
-  font-size: 2rem;
-  -webkit-text-fill-color: black;
-}
-
-ul {
-  list-style: none;
 }
 
 a {
   text-decoration: none;
-  color: #2c2c2c;
-  -webkit-text-fill-color: black;
 }
 
 .main-head {
@@ -350,52 +294,84 @@ nav ul {
   }
 }
 
-.projects {
-  width: 90%;
-  margin: auto;
-  min-height: 90vh;
+.projects-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.projects h2 {
-  margin: 5rem;
-}
-
-.travelly, .elena {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-  color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-text-fill-color: transparent;
+  gap: 5rem;
+  margin-right: none;
+}
+
+.project1 {
+  background: url(../images/fishingSite.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40vh;
+  min-width: 40vw;
+}
+
+.project2 {
+  background: blue;
+  min-height: 40vh;
+  min-width: 40vw;
+}
+
+.project3 {
+  background: green;
+  min-height: 40vh;
+  min-width: 40vw;
+}
+
+.project4 {
+  background: yellow;
+  min-height: 40vh;
+  min-width: 40vw;
+}
+
+.project5 {
+  background: purple;
+  min-height: 40vh;
+  min-width: 40vw;
+}
+
+.project6 {
+  background: pink;
+  min-height: 40vh;
+  min-width: 40vw;
+}
+
+.hvr {
+  -webkit-transition: all 1.0s ease;
+  transition: all 1.0s ease;
+  border-radius: 5px;
+}
+
+.hvr:hover {
+  scale: 1.075;
+}
+
+.content {
+  background: black;
+  bottom: -100%;
+  color: #fff;
+  height: 30%;
+  left: 0%;
+  text-align: center;
+  position: absolute;
+  -webkit-transition: bottom 0.5s ease;
+  transition: bottom 0.5s ease;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.hvr:hover .content {
+  bottom: 0%;
 }
 
 .container {
