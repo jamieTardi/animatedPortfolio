@@ -1,63 +1,70 @@
-.projects-container{
+.projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 5rem;
     margin-right: none;
-    
-
 }
 
-.project1{
-background: url(../images/fishingSite.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-min-height: 40vh;
-min-width: 40vw;
+.project1 {
+    background: url(../images/fishingSite.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    min-width: 40vw;
 }
-.project2{
+
+.project2 {
     background: url(../images/foto.png);
     background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 40vh;
-min-width: 40vw;
+    min-width: 40vw;
 }
-.project3{
+
+.project3 {
     background: url(../images/cycle-site.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 40vh;
-min-width: 40vw;
-}
-.project4{
-    background: yellow;
-    min-height: 40vh;
-min-width: 40vw;
-}
-.project5{
-    background: purple;
-    min-height: 40vh;
-min-width: 40vw;
-}
-.project6{
-    background: pink;
-    min-height: 40vh;
-min-width: 40vw;
+    min-width: 40vw;
 }
 
-.hvr{
+.project4 {
+    background: url(../images/color-app.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    min-width: 40vw;
+}
+
+.project5 {
+    background: purple;
+    min-height: 40vh;
+    min-width: 40vw;
+}
+
+.project6 {
+    background: pink;
+    min-height: 40vh;
+    min-width: 40vw;
+}
+
+.hvr {
     transition: all 1.0s ease;
     border-radius: 5px;
-    &:hover{
+
+    &:hover {
         scale: 1.075
     }
 }
 
-.content{
-    background: rgba( 0, 0, 0, 1 );
+.content {
+    background: rgba(0, 0, 0, 1);
     display: none;
     bottom: -100%;
     color: #fff;
@@ -69,16 +76,15 @@ min-width: 40vw;
     width: 100%;
     border-radius: 5px;
     transition: all 2.0s ease;
-  }
-
-  .hvr:hover .content
-{
-  bottom: 0%;
-  display: flex;
-  transition: all 2.0s ease;
 }
 
-.buttons{
+.hvr:hover .content {
+    bottom: 0%;
+    display: flex;
+    transition: all 2.0s ease;
+}
+
+.buttons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,30 +93,27 @@ min-width: 40vw;
 }
 
 .inner-btn1,
-.inner-btn2{
+.inner-btn2 {
     height: 6rem;
     width: 10rem;
     border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
-    &:hover{
+
+    &:hover {
         border: 2px #05FE46 solid;
         cursor: pointer;
-       
-        
-
     }
-    a{
+
+    a {
         font-size: 2rem;
         cursor: pointer;
-        &:hover{
-        }
-        &:visited{
+
+        &:visited {
             text-decoration: none;
             color: white;
         }
     }
-    
-}
 
+}
