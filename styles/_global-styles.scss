@@ -17,6 +17,19 @@ $grey-text: #2c2c2c;
   flex-direction: $direction;
   -webkit-text-fill-color: transparent;
 }
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
 * {
     margin: 0;
     padding: 0;
